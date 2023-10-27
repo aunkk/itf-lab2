@@ -1,0 +1,84 @@
+.body {
+    font-family: "itim";
+}
+.content {
+    border: 3px solid gray;
+    width: 1024px;
+    margin: auto;
+    place-items: center;
+}
+
+.flex-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noti {
+    position: absolute;
+    display: grid;
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 999px;
+    right: 0;
+    bottom: 0;
+    place-items: center;
+    color-scheme: white;
+    margin: 0px;
+    font-size: 10px;
+    color: white;
+}
+
+.avatar {
+    display: inline-block;
+    margin: 0px;
+    background-color: gray;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+    width: 128px;
+    height: 128px;
+    border-radius: 500px;
+}
+
+.flex-item-1  {
+    position: relative;
+    margin: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.flex-item-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(4, 300px);
+    gap: 10px;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-item {
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+}
+
+.on-hover {
+    text-decoration: none;
+    color: black;
+}
+
+.on-hover:hover {
+    text-decoration: underline;
+    color: gray;
+}
